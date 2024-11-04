@@ -1,0 +1,2 @@
+document.getElementById("compareButton").addEventListener("click",(function(){var e=document.getElementById("array1").value.split(",").map((function(e){return e.trim()})),t=document.getElementById("array2").value.split(",").map((function(e){return e.trim()})),n=e.filter((function(e){return!t.includes(e)})),r=document.getElementById("result");r.innerHTML="",n.forEach((function(e){var t=document.createElement("li");t.textContent=e,r.appendChild(t)}))}));
+//# sourceMappingURL=index.e9ad09cb.js.map
