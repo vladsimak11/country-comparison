@@ -1,2 +1,0 @@
-document.getElementById("compareButton").addEventListener("click",(function(){const e=document.getElementById("array1").value.split(",").map((e=>e.trim())),t=document.getElementById("array2").value.split(",").map((e=>e.trim())),n=e.filter((e=>!t.includes(e))),l=document.getElementById("result");l.innerHTML="",n.forEach((e=>{const t=document.createElement("li");t.textContent=e,l.appendChild(t)}))}));
-//# sourceMappingURL=index.f988753b.js.map
